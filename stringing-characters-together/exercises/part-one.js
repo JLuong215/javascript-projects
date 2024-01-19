@@ -24,7 +24,7 @@ console.log(num3.length);
 //Experiment! What if num could be EITHER an integer or a decimal?  Add an if/else statement so your code can handle both cases.
 
 if (num()){
-    let num1 = num,toString();
+    let num1 = num.toString();
 console.log(num1.length);
 } else {
     console.log('not a number');
