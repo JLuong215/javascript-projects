@@ -23,7 +23,7 @@ console.log(`${str3}${str4}`);
 
 //3) Add validation to your code to deal with user inputs that are longer than the word. In such cases, default to moving 3 characters. Also, the template literal should note the error.
 
-for (numOfMove>str.length);{
+if (numOfMove>str.length){
     let str3 = str.slice(numOfMove);
     let str4 = str.slice(0,numOfMove);
     
