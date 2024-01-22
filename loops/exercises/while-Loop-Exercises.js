@@ -3,6 +3,8 @@
 let fuelAnswer = prompt("what is the fuel level?");
 let astroAboard = prompt("How many Astronaut are on board?");
 let altitude = prompt("what alitude have the spaceship reach?");
+let fuelUseFlying = (astroAboard * 100) - fuelAnswer;
+let alitudeAcended = '';
 
 
 /*Exercise #4: Construct while loops to do the following:
@@ -41,4 +43,10 @@ while (fuelUse > 1) {
   console.log("Orbit Acheieved")
 } if (fuelUse < 1) {
   console.log("Failed to reach Orbit")
+}
+
+while (fuelUseFlying > 1) {
+ (i = 0; i > 2000; i++)
+ i = ''
+ 
 }
