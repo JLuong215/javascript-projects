@@ -53,7 +53,7 @@ let evens = [];
 let odds = [];
 
 for (i = 0; i < rArr2.length; i++) {
-  if ((i+2) % 2 === 0) {
+  if (i % 2 == 0) {
   evens.push(rArr2[i]);
   } else {
     odds.push(rArr2[i]);

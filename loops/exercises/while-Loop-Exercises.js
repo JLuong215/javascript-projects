@@ -10,7 +10,7 @@ let alitudeAcended = '';
 /*Exercise #4: Construct while loops to do the following:
   a. Query the user for the starting fuel level. Validate that the user enters a positive, integer value greater than 5000 but less than 30000. */
 
-   while (fuelAnswer > 5000 && fuelAnswer < 30000) {
+   for (fuelAnswer > 5000 && fuelAnswer < 30000) {
     console.log("Enough Fuel to blast off");
     break;
   } if (fuelAnswer < 5000) {
@@ -45,8 +45,10 @@ while (fuelUse > 1) {
   console.log("Failed to reach Orbit")
 }
 
+let i = 0 
+
 while (fuelUseFlying > 1) {
- (i = 0; i > 2000; i++)
+ (i = 0; i > 2000; i = i+50)
  i = ''
- 
+
 }
