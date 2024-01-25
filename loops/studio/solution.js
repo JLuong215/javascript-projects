@@ -35,6 +35,7 @@ function askForNumber() {
 }
 
 
+
 // function generatePassword(string1, string2) {
 //   let code = '';
 
