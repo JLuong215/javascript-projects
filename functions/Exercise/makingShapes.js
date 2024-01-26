@@ -3,10 +3,10 @@ function makeLine(size) {
     for (i = 0;i < size; i++){
     line += "#"
     }
-    console.log(line);
+    return line;
 }
 
-makeLine(5);
+console.log(makeLine(5));
 
 function makeRectangle(Width, Height) {
     let Rectangle = '';
@@ -25,3 +25,8 @@ function makeStairs(size) {
     }
     console.log(Stairs(0, -1))
 }
+
+// function makeSpaceLine(space) {
+//     let middle = '';
+//     for (i = 0, i < )
+// }
