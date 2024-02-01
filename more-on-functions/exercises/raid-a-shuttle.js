@@ -63,8 +63,8 @@ const doubleCheckingItems = function(arr) {
   i = 0
   while (i < arr.length) {
   if (arr.indexOf('gold', 'space Suits') === -1) {
-    arr.splice(stolenItems, 1)
-    stolenItems
+    arr.push(stolenItems, 1)
+    
   }
   }
 }
