@@ -1,10 +1,28 @@
 // Code your selectRandomEntry function here:
+let idNumbers = [291, 414, 503, 599, 796, 890];
+let newCrew = [];
 
+function selectRandomEntry (arr) {
+  let index = Math.floor(Math.random()*arr.length)
+  return arr[index];
+} 
+for (i = 0; i < 3; i++) {
+  let randomNumber = selectRandomEntry;
+  while (newCrew.include(randomNumber)) {
+    return randomNumber = selectRandomEntry;
+  }
+  return newCrew.push(randomNumber);
+}
 
 // Code your buildCrewArray function here:
 
+function buildNewCrew (idNumbers, newCrew) {
+let crewArray = [];
+  for (i = 0; i < idNumbers.length; i++)
+    for (j = 0; j < newCrew.length; i++)
+      if ()
+}
 
-let idNumbers = [291, 414, 503, 599, 796, 890];
 
 // Here are the candidates and the 'animals' array:
 let candidateA = {
