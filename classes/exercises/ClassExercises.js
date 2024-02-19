@@ -48,4 +48,7 @@ class Novel extends Book {
 let prideAndPrejudice = new Novel('Pride and Prejudice', 'Jane Austen', 1813, 1111111111111, 432, 32, 'No');
 console.log(prideAndPrejudice);
 
+let makingTheShip = new Manual('Top Secret Shuttle Building Manual', 'Redacted', 2013, '0000000000000', 1147, 1, 'No');
+console.log(makingTheShip);
 // Code exercises 4 & 5 here:
+
