@@ -9,7 +9,23 @@
   </head>
   <body>
     <!-- TODO: add form here -->
-    
+    <form action="https://handlers.education.launchcode.org/request-parrot" method="POST"></form>
+      <label>Test Name <input type="text" name="username"></label>
+      <label>Test Date <input type="date" name="testdate"></label>
+      <label>Rocket Type 
+      <select name="rocketType">
+        <option value="">* Pick one</option>
+        <option value="1">Lynx</option>
+        <option value="2">RandomRocket</option>
+      </select>
+      </label>
+      <label>Number of Rocket Boosters <input type="number" name="rocketBooster"/></label>
+      Wind Rating:
+      <label>No wind <input type="radio" name="windRating" value="noWind"/></label>
+      <label>Mild <input type="radio" name="windRating" value="mild"/></label>
+      <label>Strong <input type="radio" name="windRating" value="Strong"/></label>
+      <label>Use Production grade servers<input type="checkbox" name="prodServers"/></label>      <button>Run Simulation</button>
+  </form>
 
     <p>WARNING: This ONLY works in <b>replit</b> if this "result" page is opened in its own window. Click the icon that shows a box with an arrow coming out of it.
     </p>
